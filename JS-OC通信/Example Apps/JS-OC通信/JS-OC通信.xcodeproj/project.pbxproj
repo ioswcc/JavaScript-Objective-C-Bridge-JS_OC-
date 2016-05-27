@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B1353C1CF8240500755098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1353B1CF8240500755098 /* main.m */; };
+		84B1353F1CF8240500755098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1353E1CF8240500755098 /* AppDelegate.m */; };
+		84B135421CF8240500755098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B135411CF8240500755098 /* ViewController.m */; };
+		84B135451CF8240500755098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B135431CF8240500755098 /* Main.storyboard */; };
+		84B135471CF8240500755098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B135461CF8240500755098 /* Assets.xcassets */; };
+		84B1354A1CF8240500755098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B135481CF8240500755098 /* LaunchScreen.storyboard */; };
+		84B135571CF83F8600755098 /* bridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 84B135551CF83F8600755098 /* bridge.js */; };
+		84B135581CF83F8600755098 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 84B135561CF83F8600755098 /* index2.html */; };
+		84B1355A1CF842E400755098 /* README.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B135591CF842E400755098 /* README.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84B135371CF8240500755098 /* JS-OC通信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS-OC通信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B1353B1CF8240500755098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B1353D1CF8240500755098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B1353E1CF8240500755098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B135401CF8240500755098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B135411CF8240500755098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B135441CF8240500755098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B135461CF8240500755098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B135491CF8240500755098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B1354B1CF8240500755098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B135551CF83F8600755098 /* bridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bridge.js; sourceTree = "<group>"; };
+		84B135561CF83F8600755098 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		84B135591CF842E400755098 /* README.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = README.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B135341CF8240500755098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B1352E1CF8240500755098 = {
+			isa = PBXGroup;
+			children = (
+				84B135391CF8240500755098 /* JS-OC通信 */,
+				84B135381CF8240500755098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B135381CF8240500755098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B135371CF8240500755098 /* JS-OC通信.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B135391CF8240500755098 /* JS-OC通信 */ = {
+			isa = PBXGroup;
+			children = (
+				84B1353D1CF8240500755098 /* AppDelegate.h */,
+				84B1353E1CF8240500755098 /* AppDelegate.m */,
+				84B135401CF8240500755098 /* ViewController.h */,
+				84B135411CF8240500755098 /* ViewController.m */,
+				84B135551CF83F8600755098 /* bridge.js */,
+				84B135561CF83F8600755098 /* index2.html */,
+				84B135431CF8240500755098 /* Main.storyboard */,
+				84B135461CF8240500755098 /* Assets.xcassets */,
+				84B135481CF8240500755098 /* LaunchScreen.storyboard */,
+				84B1354B1CF8240500755098 /* Info.plist */,
+				84B1353A1CF8240500755098 /* Supporting Files */,
+				84B135591CF842E400755098 /* README.m */,
+			);
+			path = "JS-OC通信";
+			sourceTree = "<group>";
+		};
+		84B1353A1CF8240500755098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B1353B1CF8240500755098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B135361CF8240500755098 /* JS-OC通信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B1354E1CF8240500755098 /* Build configuration list for PBXNativeTarget "JS-OC通信" */;
+			buildPhases = (
+				84B135331CF8240500755098 /* Sources */,
+				84B135341CF8240500755098 /* Frameworks */,
+				84B135351CF8240500755098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JS-OC通信";
+			productName = "JS-OC通信";
+			productReference = 84B135371CF8240500755098 /* JS-OC通信.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B1352F1CF8240500755098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = www.sfscloudservice.com;
+				TargetAttributes = {
+					84B135361CF8240500755098 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = G2BWJ494MV;
+					};
+				};
+			};
+			buildConfigurationList = 84B135321CF8240500755098 /* Build configuration list for PBXProject "JS-OC通信" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B1352E1CF8240500755098;
+			productRefGroup = 84B135381CF8240500755098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B135361CF8240500755098 /* JS-OC通信 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B135351CF8240500755098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B1354A1CF8240500755098 /* LaunchScreen.storyboard in Resources */,
+				84B135571CF83F8600755098 /* bridge.js in Resources */,
+				84B135471CF8240500755098 /* Assets.xcassets in Resources */,
+				84B135451CF8240500755098 /* Main.storyboard in Resources */,
+				84B135581CF83F8600755098 /* index2.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B135331CF8240500755098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B135421CF8240500755098 /* ViewController.m in Sources */,
+				84B1355A1CF842E400755098 /* README.m in Sources */,
+				84B1353F1CF8240500755098 /* AppDelegate.m in Sources */,
+				84B1353C1CF8240500755098 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B135431CF8240500755098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B135441CF8240500755098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B135481CF8240500755098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B135491CF8240500755098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B1354C1CF8240500755098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B1354D1CF8240500755098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B1354F1CF8240500755098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS-OC通信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.sfscloudservice.JS-OC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B135501CF8240500755098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JS-OC通信/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.sfscloudservice.JS-OC--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B135321CF8240500755098 /* Build configuration list for PBXProject "JS-OC通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1354C1CF8240500755098 /* Debug */,
+				84B1354D1CF8240500755098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B1354E1CF8240500755098 /* Build configuration list for PBXNativeTarget "JS-OC通信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B1354F1CF8240500755098 /* Debug */,
+				84B135501CF8240500755098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B1352F1CF8240500755098 /* Project object */;
+}
